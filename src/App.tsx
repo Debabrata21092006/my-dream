@@ -160,6 +160,9 @@ function HeroSection() {
         <div className="absolute top-10 left-10 w-72 h-72 bg-yellow-300 rounded-full blur-3xl" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-red-400 rounded-full blur-3xl" />
       </div>
+      <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-10">
+        <img src="/lpu-logo.png" alt="Lovely Professional University" className="w-16 h-16 sm:w-20 sm:h-20 rounded-lg bg-white p-1 shadow-lg" />
+      </div>
       <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-28 flex flex-col items-center text-center gap-6">
         <div className="flex items-center gap-2 bg-white/20 backdrop-blur rounded-full px-4 py-1.5 text-sm font-medium">
           <Thermometer className="w-4 h-4" />
@@ -168,7 +171,8 @@ function HeroSection() {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight max-w-4xl">
           Urban Heat Island <br className="hidden sm:block" /> Analysis Tool
         </h1>
-        <p className="text-xl sm:text-2xl font-semibold text-white/90">Debabrata Pal · Kunal Kumar · Mehakpreet Kaur</p>
+        <p className="text-lg sm:text-xl font-medium text-white/80">A project by students of Lovely Professional University</p>
+        <p className="text-xl sm:text-2xl font-semibold text-white">Debabrata Pal · Kunal Kumar · Mehakpreet Kaur</p>
         <p className="text-lg sm:text-xl max-w-2xl text-white/90">
           Explore how cities trap heat, understand the science behind urban warming, and discover actionable strategies to cool our cities.
         </p>
