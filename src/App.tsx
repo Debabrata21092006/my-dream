@@ -13,7 +13,6 @@ import {
   MapPin,
   Leaf,
   CloudSun,
-  TrendingUp,
   TrendingDown,
   ChevronDown,
   ChevronUp,
@@ -140,9 +139,9 @@ const defaultSimInputs: SimulatorInputs = {
 // ── Helpers ──
 
 function impactColor(impact: string) {
-  if (impact === 'High') return 'bg-red-100 text-red-700'
+  if (impact === 'High') return 'bg-green-100 text-green-700'
   if (impact === 'Medium') return 'bg-yellow-100 text-yellow-700'
-  return 'bg-green-100 text-green-700'
+  return 'bg-red-100 text-red-700'
 }
 
 function costColor(cost: string) {
@@ -346,7 +345,7 @@ function MitigationSection() {
                 <span className={`px-2 py-0.5 rounded-full ${impactColor(s.impact)}`}>Impact: {s.impact}</span>
                 <span className={`${costColor(s.costLevel)}`}>Cost: {s.costLevel}</span>
                 <span className="ml-auto flex items-center gap-1 text-blue-600">
-                  {s.tempReduction < -2 ? <TrendingDown className="w-3 h-3" /> : <TrendingUp className="w-3 h-3" />}
+                  <TrendingDown className="w-3 h-3" />
                   {s.tempReduction} °C
                 </span>
               </div>
