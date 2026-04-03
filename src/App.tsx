@@ -179,6 +179,7 @@ function HeroSection() {
             Try Simulator
           </a>
         </div>
+        <p className="text-sm text-white/70 mt-4">Created by <span className="text-white font-medium">Debabrata Pal</span> · <span className="text-white font-medium">Kunal Kumar</span> · <span className="text-white font-medium">Mehakpreet Kaur</span></p>
       </div>
     </section>
   )
