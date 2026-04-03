@@ -168,6 +168,7 @@ function HeroSection() {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight max-w-4xl">
           Urban Heat Island <br className="hidden sm:block" /> Analysis Tool
         </h1>
+        <p className="text-xl sm:text-2xl font-semibold text-white/90">Debabrata Pal · Kunal Kumar · Mehakpreet Kaur</p>
         <p className="text-lg sm:text-xl max-w-2xl text-white/90">
           Explore how cities trap heat, understand the science behind urban warming, and discover actionable strategies to cool our cities.
         </p>
@@ -179,7 +180,6 @@ function HeroSection() {
             Try Simulator
           </a>
         </div>
-        <p className="text-sm text-white/70 mt-4">Created by <span className="text-white font-medium">Debabrata Pal</span> · <span className="text-white font-medium">Kunal Kumar</span> · <span className="text-white font-medium">Mehakpreet Kaur</span></p>
       </div>
     </section>
   )
