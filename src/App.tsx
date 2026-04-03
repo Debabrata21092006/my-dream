@@ -447,8 +447,12 @@ function Simulator() {
 function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 py-10">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col items-center gap-4 text-sm">
         <p>&copy; {new Date().getFullYear()} Urban Heat Island Analysis Tool — Simplified</p>
+        <div className="flex flex-col items-center gap-1">
+          <p className="text-gray-300 font-medium">Created by</p>
+          <p className="text-white">Debabrata Pal &middot; Kunal Kumar &middot; Mehakpreet Kaur</p>
+        </div>
         <p className="flex items-center gap-1">
           Built with <Leaf className="w-4 h-4 text-green-400" /> for a cooler planet
         </p>
